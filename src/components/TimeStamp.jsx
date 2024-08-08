@@ -1,6 +1,6 @@
-function TimeStamp ({tweet}) {
+function TimeStamp ({ timestamp }) {
     return (
-        <span className="timestamp">{tweet.timestamp}</span>
+        <span className="timestamp">{timestamp}</span>
     );
  }
  export default TimeStamp;

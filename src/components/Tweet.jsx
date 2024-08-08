@@ -1,3 +1,4 @@
+// Tweet.jsx
 import ProfileImage from "./ProfileImage";
 import User from "./User";
 import TimeStamp from "./TimeStamp";
@@ -7,19 +8,15 @@ import Actions from "./Actions";
 function Tweet({ tweet }) {
   return (
     <div className="tweet">
-      <ProfileImage tweet={tweet} />
-
+      <ProfileImage image={tweet.user.image} />
       <div className="body">
         <div className="top">
-          <User tweet={tweet} /> 
-          <TimeStamp tweet={tweet} /> 
+          <User user={tweet.user} />
+          <TimeStamp timestamp={tweet.timestamp} />
         </div>
-    
-      <Message tweet={tweet} />
-
-      <Actions tweet={tweet} />
+        <Message message={tweet.message} />
+        <Actions />
       </div>
-
       <i className="fas fa-ellipsis-h"></i>
     </div>
   );

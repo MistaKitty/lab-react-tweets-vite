@@ -1,6 +1,6 @@
-function Message ({tweet}) {
+function Message ({ message }) {
     return (
-        <p className="message">{tweet.message}</p>
+        <p className="message">{message}</p>
     );
  }
  export default Message;

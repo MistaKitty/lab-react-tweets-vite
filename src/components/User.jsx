@@ -1,8 +1,8 @@
-function User ({tweet}) {
+function User ({ user }) {
     return (
         <span className="user">
-        <span className="name">{tweet.user.name}</span>
-        <span className="handle">{tweet.user.handle}</span>
+        <span className="name">{user.name}</span>
+        <span className="handle">{user.handle}</span>
       </span>
     );
  }
