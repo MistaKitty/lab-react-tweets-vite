@@ -1,9 +1,8 @@
-// Tweet.jsx
-import ProfileImage from "./ProfileImage";
-import User from "./User";
-import TimeStamp from "./TimeStamp";
-import Message from "./Message";
-import Actions from "./Actions";
+import ProfileImage from './ProfileImage';
+import User from './User';
+import TimeStamp from './TimeStamp';
+import Message from './Message';
+import Actions from './Actions';
 
 function Tweet({ tweet }) {
   return (
