@@ -1,10 +1,6 @@
- function ProfileImage ({tweet}) {
-    return (
-    <img
-        src={tweet.user.image}
-        className="profile"
-        alt="profile"
-      />
-    );
- }
- export default ProfileImage;
+function ProfileImage({ image }) {
+  return (
+    <img src={image} className="profile" alt="profile" />
+  );
+}
+export default ProfileImage;
